@@ -21,8 +21,8 @@ The Intel I219-LM NIC can become unresponsive due to aggressive power management
 
 ```bash
 # Run as root
-chmod +x proxmox-nic-hardening.sh
-./proxmox-nic-hardening.sh
+chmod +x network_fix.sh
+./network_fix.sh
 reboot
 ```
 
